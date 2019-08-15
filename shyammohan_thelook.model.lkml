@@ -3,6 +3,9 @@ connection: "thelook"
 # include all the views
 include: "*.view"
 
+# include LookML dashboard
+include: "*.dashboard.lookml"
+
 datagroup: shyammohan_thelook_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
