@@ -17,7 +17,7 @@ persist_with: shyammohan_thelook_default_datagroup
 
 #-------->>>  JOIN WITH 'FIELDS' PARAMETER <<<-----------------------
 #-------->>>  'VIEW LABEL' USED <<<------------------------------
-#-------->>>  'INNER JOIN' USED <<<-----------------------
+#-------->>>  'INNER JOIN' USED  <<<-----------------------
 explore: distribution_centers {
   join: products{
     view_label: "Product (Limited Fields)"
